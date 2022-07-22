@@ -1,8 +1,6 @@
 public class Transportation {
  int plateNum;
  int fuel;
-
-
  int maxPassenger;
 
  int currentPassenger;

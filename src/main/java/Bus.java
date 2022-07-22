@@ -1,8 +1,6 @@
 public class Bus extends Transportation{
     int fare =1000;
     String status = "운행중";
-
-
     public Bus(int plateNum) {
         super(plateNum, 30);
     }
@@ -14,15 +12,6 @@ public class Bus extends Transportation{
 
     }
 
-//
-//    public int getFuel(int n) {
-//        return fuel +n;
-//    }
-//
-//    public int getTpNum() { // 버스 번호 확인
-//        return tpNum;
-//    }
-//
     public void updateStatus() {// 상태변경
 
         if (status == "운행중"|| fuel < 10 ){

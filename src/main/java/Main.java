@@ -2,29 +2,29 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-//        Transportation bus1 = new Bus(2233);
-//        Transportation bus2 = new Bus(2326);
-//
-//        bus1.ride(2);
-//        ((Bus) bus1).getInfo();
-//        bus1.getFuel(-50);
-//        bus1.getFuelInfo();
-//        ((Bus) bus1).updateStatus();
-//        bus1.getFuel(10);
-//        ((Bus) bus1).getStatus();
-//        bus1.getFuelInfo();
-//        ((Bus) bus1).updateStatus();
-//        bus1.ride(50);
-//
-//        bus1.ride(5);
-//        ((Bus) bus1).getInfo();
-//
-//        bus1.getFuel(-55);
-//
-//
-//        bus1.getFuelInfo();
-//        ((Bus) bus1).updateStatus();
-//        ((Bus) bus1).getStatus();
+        Transportation bus1 = new Bus(2233);
+        Transportation bus2 = new Bus(2326);
+
+        bus1.ride(2);
+        ((Bus) bus1).getInfo();
+        bus1.getFuel(-50);
+        bus1.getFuelInfo();
+        ((Bus) bus1).updateStatus();
+        bus1.getFuel(10);
+        ((Bus) bus1).getStatus();
+        bus1.getFuelInfo();
+        ((Bus) bus1).updateStatus();
+        bus1.ride(50);
+
+        bus1.ride(5);
+        ((Bus) bus1).getInfo();
+
+        bus1.getFuel(-55);
+
+
+        bus1.getFuelInfo();
+        ((Bus) bus1).updateStatus();
+        ((Bus) bus1).getStatus();
 
         Transportation taxi1 = new Taxi(12344);
         Transportation taxi2 = new Taxi(23455);
